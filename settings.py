@@ -1,4 +1,4 @@
-IMG_WIDTH, IMG_HEIGHT = 256, 256
+IMG_WIDTH, IMG_HEIGHT = 512, 512
 
 FLOW_PARAMS = {
     'batch_size': 16,

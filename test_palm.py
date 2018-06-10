@@ -5,7 +5,7 @@ from keras.models import load_model
 
 from settings import *
 
-model = load_model('palm_model.mdl')
+model = load_model('model.mdl')
 fname = 'data/ 5.jpg'
 
 X = np.array(
