@@ -8,6 +8,7 @@ from keras.models import load_model
 from settings import *
 
 app = Flask(__name__)
+model = load_model('model.mdl')
 
 
 @app.route('/', methods=['POST'])
@@ -19,7 +20,6 @@ def palm_read():
     if user_input.startswith('https://scontent.xx.fbcdn.net/'):
         try:
             img = Image.open(urllib.request.urlopen(user_input))
-            model = load_model('model.mdl')
             X = np.array(
                 img.resize((IMG_WIDTH, IMG_HEIGHT)).getdata(),
                 np.uint8,
