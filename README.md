@@ -33,5 +33,5 @@ In `settings.py`, you can customize your own settings.
 * TUNED_PARAMS: Keras model tunning parameters. If you don't have much time, make them smaller.
 * IMG_AUG: image augmentation. Make good augmentation for your training data set.
 
-More Information:
-https://towardsdatascience.com/when-ai-meets-3000-year-old-chinese-palmistry-a767b7f3defb
+---
+More Information: [When AI meets 3000-year-old Chinese Palmistry](https://towardsdatascience.com/when-ai-meets-3000-year-old-chinese-palmistry-a767b7f3defb)
